@@ -59,5 +59,48 @@ namespace SisteminhaCalculos
         {
 
         }
+
+        private void btnPreco_Somar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Preco_Click(object sender, EventArgs e)
+        {
+            pnl_Preco.Visible = true;
+            pnl_Preco.BringToFront();
+            //pnl_Menu.Visible = false;
+        }
+
+        private void btn_Voltar_Click(object sender, EventArgs e)
+        {
+            pnl_Calculos.Visible = false;
+            pnl_Menu.Visible = true;
+            pnl_Preco.Visible = false;
+            pnl_Menu.BringToFront();
+        }
+
+        private void btn_Venda_Click(object sender, EventArgs e)
+        {
+            pnl_Preco.Visible = false;
+        }
+
+        private void btn_Anuncio_Click(object sender, EventArgs e)
+        {
+            pnl_Preco.Visible = false;
+        }
+
+        private void btn_Receber_Click(object sender, EventArgs e)
+        {
+            pnl_Preco.Visible = false;
+        }
+
+        private void btnPreco_Calcular_Click(object sender, EventArgs e)
+        {
+
+
+
+
+        }
     }
 }

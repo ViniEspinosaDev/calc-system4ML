@@ -100,7 +100,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(444, 423);
+            this.label1.Location = new System.Drawing.Point(445, 429);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 13);
@@ -128,7 +128,7 @@
             this.pnl_Menu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnl_Menu.BackgroundImage")));
             this.pnl_Menu.Controls.Add(this.pnl_Calculos);
             this.pnl_Menu.Location = new System.Drawing.Point(0, 25);
-            this.pnl_Menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnl_Menu.Margin = new System.Windows.Forms.Padding(2);
             this.pnl_Menu.Name = "pnl_Menu";
             this.pnl_Menu.Size = new System.Drawing.Size(656, 396);
             this.pnl_Menu.TabIndex = 3;
@@ -142,7 +142,7 @@
             this.pnl_Calculos.Controls.Add(this.btn_Venda);
             this.pnl_Calculos.Controls.Add(this.btn_Preco);
             this.pnl_Calculos.Location = new System.Drawing.Point(0, 0);
-            this.pnl_Calculos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnl_Calculos.Margin = new System.Windows.Forms.Padding(2);
             this.pnl_Calculos.Name = "pnl_Calculos";
             this.pnl_Calculos.Size = new System.Drawing.Size(656, 396);
             this.pnl_Calculos.TabIndex = 4;
@@ -171,7 +171,7 @@
             this.pnl_Preco.Controls.Add(this.label3);
             this.pnl_Preco.Controls.Add(this.label2);
             this.pnl_Preco.Location = new System.Drawing.Point(227, 6);
-            this.pnl_Preco.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnl_Preco.Margin = new System.Windows.Forms.Padding(2);
             this.pnl_Preco.Name = "pnl_Preco";
             this.pnl_Preco.Size = new System.Drawing.Size(420, 384);
             this.pnl_Preco.TabIndex = 5;
@@ -180,12 +180,13 @@
             // btn_Limpar
             // 
             this.btn_Limpar.Location = new System.Drawing.Point(330, 2);
-            this.btn_Limpar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Limpar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Limpar.Name = "btn_Limpar";
             this.btn_Limpar.Size = new System.Drawing.Size(88, 22);
             this.btn_Limpar.TabIndex = 19;
             this.btn_Limpar.Text = "Limpar Campos";
             this.btn_Limpar.UseVisualStyleBackColor = true;
+            this.btn_Limpar.Click += new System.EventHandler(this.btn_Limpar_Click);
             // 
             // label10
             // 
@@ -200,7 +201,7 @@
             // btnPreco_Calcular
             // 
             this.btnPreco_Calcular.Location = new System.Drawing.Point(61, 244);
-            this.btnPreco_Calcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPreco_Calcular.Margin = new System.Windows.Forms.Padding(2);
             this.btnPreco_Calcular.Name = "btnPreco_Calcular";
             this.btnPreco_Calcular.Size = new System.Drawing.Size(290, 54);
             this.btnPreco_Calcular.TabIndex = 5;
@@ -211,7 +212,7 @@
             // txtPreco_Adicional
             // 
             this.txtPreco_Adicional.Location = new System.Drawing.Point(102, 197);
-            this.txtPreco_Adicional.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_Adicional.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_Adicional.Multiline = true;
             this.txtPreco_Adicional.Name = "txtPreco_Adicional";
             this.txtPreco_Adicional.Size = new System.Drawing.Size(227, 24);
@@ -220,7 +221,7 @@
             // txtPreco_Margem
             // 
             this.txtPreco_Margem.Location = new System.Drawing.Point(102, 167);
-            this.txtPreco_Margem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_Margem.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_Margem.Multiline = true;
             this.txtPreco_Margem.Name = "txtPreco_Margem";
             this.txtPreco_Margem.Size = new System.Drawing.Size(227, 24);
@@ -229,7 +230,7 @@
             // txtPreco_Quantidade
             // 
             this.txtPreco_Quantidade.Location = new System.Drawing.Point(102, 133);
-            this.txtPreco_Quantidade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_Quantidade.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_Quantidade.Multiline = true;
             this.txtPreco_Quantidade.Name = "txtPreco_Quantidade";
             this.txtPreco_Quantidade.Size = new System.Drawing.Size(227, 24);
@@ -238,7 +239,7 @@
             // btnPreco_Somar
             // 
             this.btnPreco_Somar.Location = new System.Drawing.Point(332, 98);
-            this.btnPreco_Somar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPreco_Somar.Margin = new System.Windows.Forms.Padding(2);
             this.btnPreco_Somar.Name = "btnPreco_Somar";
             this.btnPreco_Somar.Size = new System.Drawing.Size(57, 26);
             this.btnPreco_Somar.TabIndex = 13;
@@ -249,7 +250,7 @@
             // txtPreco_ShowCusto
             // 
             this.txtPreco_ShowCusto.Location = new System.Drawing.Point(216, 99);
-            this.txtPreco_ShowCusto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_ShowCusto.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_ShowCusto.Multiline = true;
             this.txtPreco_ShowCusto.Name = "txtPreco_ShowCusto";
             this.txtPreco_ShowCusto.ReadOnly = true;
@@ -260,7 +261,7 @@
             // txtPreco_Custo
             // 
             this.txtPreco_Custo.Location = new System.Drawing.Point(102, 99);
-            this.txtPreco_Custo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_Custo.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_Custo.Multiline = true;
             this.txtPreco_Custo.Name = "txtPreco_Custo";
             this.txtPreco_Custo.Size = new System.Drawing.Size(110, 24);
@@ -269,7 +270,7 @@
             // txtPreco_ValUnidade
             // 
             this.txtPreco_ValUnidade.Location = new System.Drawing.Point(291, 339);
-            this.txtPreco_ValUnidade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_ValUnidade.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_ValUnidade.Multiline = true;
             this.txtPreco_ValUnidade.Name = "txtPreco_ValUnidade";
             this.txtPreco_ValUnidade.Size = new System.Drawing.Size(120, 30);
@@ -278,7 +279,7 @@
             // txtPreco_Classico
             // 
             this.txtPreco_Classico.Location = new System.Drawing.Point(154, 339);
-            this.txtPreco_Classico.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_Classico.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_Classico.Multiline = true;
             this.txtPreco_Classico.Name = "txtPreco_Classico";
             this.txtPreco_Classico.Size = new System.Drawing.Size(120, 30);
@@ -287,7 +288,7 @@
             // txtPreco_Premium
             // 
             this.txtPreco_Premium.Location = new System.Drawing.Point(10, 339);
-            this.txtPreco_Premium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPreco_Premium.Margin = new System.Windows.Forms.Padding(2);
             this.txtPreco_Premium.Multiline = true;
             this.txtPreco_Premium.Name = "txtPreco_Premium";
             this.txtPreco_Premium.Size = new System.Drawing.Size(120, 30);
@@ -386,7 +387,7 @@
             // btn_Voltar
             // 
             this.btn_Voltar.Location = new System.Drawing.Point(4, 318);
-            this.btn_Voltar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Voltar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Voltar.Name = "btn_Voltar";
             this.btn_Voltar.Size = new System.Drawing.Size(218, 72);
             this.btn_Voltar.TabIndex = 4;
@@ -397,7 +398,7 @@
             // btn_Receber
             // 
             this.btn_Receber.Location = new System.Drawing.Point(4, 240);
-            this.btn_Receber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Receber.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Receber.Name = "btn_Receber";
             this.btn_Receber.Size = new System.Drawing.Size(218, 72);
             this.btn_Receber.TabIndex = 3;
@@ -408,7 +409,7 @@
             // btn_Anuncio
             // 
             this.btn_Anuncio.Location = new System.Drawing.Point(4, 158);
-            this.btn_Anuncio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Anuncio.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Anuncio.Name = "btn_Anuncio";
             this.btn_Anuncio.Size = new System.Drawing.Size(218, 77);
             this.btn_Anuncio.TabIndex = 2;
@@ -419,7 +420,7 @@
             // btn_Venda
             // 
             this.btn_Venda.Location = new System.Drawing.Point(4, 80);
-            this.btn_Venda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Venda.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Venda.Name = "btn_Venda";
             this.btn_Venda.Size = new System.Drawing.Size(218, 73);
             this.btn_Venda.TabIndex = 1;
@@ -430,7 +431,7 @@
             // btn_Preco
             // 
             this.btn_Preco.Location = new System.Drawing.Point(4, 6);
-            this.btn_Preco.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Preco.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Preco.Name = "btn_Preco";
             this.btn_Preco.Size = new System.Drawing.Size(218, 70);
             this.btn_Preco.TabIndex = 0;
@@ -449,7 +450,7 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(673, 490);
             this.MinimumSize = new System.Drawing.Size(673, 490);
             this.Name = "frm_Menu";

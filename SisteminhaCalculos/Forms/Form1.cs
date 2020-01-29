@@ -13,6 +13,7 @@ namespace SisteminhaCalculos
     public partial class frm_Menu : Form
     {
         DateTime data_hora;
+        double precoCusto;
 
         public frm_Menu()
         {
@@ -62,7 +63,16 @@ namespace SisteminhaCalculos
 
         private void btnPreco_Somar_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                precoCusto += double.Parse(txtPreco_Custo.Text);
+                txtPreco_ShowCusto.Text = "R$" + precoCusto.ToString("F2");
+                txtPreco_Custo.Text = "";
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show("Verifique os campos de texto");
+            }
         }
 
         private void btn_Preco_Click(object sender, EventArgs e)
@@ -97,9 +107,38 @@ namespace SisteminhaCalculos
 
         private void btnPreco_Calcular_Click(object sender, EventArgs e)
         {
+            try
+            {
+                double adicional = double.Parse(txtPreco_Adicional.Text);
+                //txtPreco_Classico.Text
+                double custo;
+                if (txtPreco_ShowCusto.Text.Equals(""))
+                {
+                    custo = double.Parse(txtPreco_Custo.Text);
+                }
+                else
+                {
+                    custo = double.Parse(txtPreco_ShowCusto.Text);
+                }
+                // txtPreco_Custo.Text
+                //txtPreco_Margem.Text
+                //txtPreco_Premium.Text
+                //txtPreco_Quantidade.Text
+                
+                //txtPreco_ValUnidade.Text
+
+            }
+            catch (Exception ee)
+            {
+                MessageBox.Show("Verifique os campos de texto");
+            }
 
 
 
+        }
+
+        private void btn_Limpar_Click(object sender, EventArgs e)
+        {
 
         }
     }

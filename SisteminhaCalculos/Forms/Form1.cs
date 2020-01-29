@@ -110,7 +110,6 @@ namespace SisteminhaCalculos
             try
             {
                 double adicional = double.Parse(txtPreco_Adicional.Text);
-                //txtPreco_Classico.Text
                 double custo;
                 if (txtPreco_ShowCusto.Text.Equals(""))
                 {
@@ -120,11 +119,10 @@ namespace SisteminhaCalculos
                 {
                     custo = double.Parse(txtPreco_ShowCusto.Text);
                 }
-                // txtPreco_Custo.Text
-                //txtPreco_Margem.Text
-                //txtPreco_Premium.Text
-                //txtPreco_Quantidade.Text
-                
+                double margem = double.Parse(txtPreco_Margem.Text);
+                int quantidade = int.Parse(txtPreco_Quantidade.Text);
+
+                double valUnidade = 0;
                 //txtPreco_ValUnidade.Text
 
             }
